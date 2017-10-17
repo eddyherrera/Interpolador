@@ -102,7 +102,7 @@ def main():
 
     indices.append(n-1)
     i = 0
-    #Interpolación con cada lista de puntos
+    #Interpolación con cada lista de puntos ORDENADA 
     while i < len(indices):
         xi, yi=  [] ,[]
         if i==0:
